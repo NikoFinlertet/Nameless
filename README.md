@@ -9,6 +9,14 @@
 GitHub: https://github.com/NikoFinlertet/Cursovaya.git
 
 ---
+Задачи:
+>В Figma:
+ - [] Дизайн сервиса (в разработке)
+ - [] Схема микросервисной архитектуры 
 
+>Code:
+ - []
+ - []
+ - []
 
 ---
