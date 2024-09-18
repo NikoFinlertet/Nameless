@@ -7,3 +7,8 @@
 Дизайн: Figma
 
 GitHub: https://github.com/NikoFinlertet/Cursovaya.git
+
+---
+
+
+---
