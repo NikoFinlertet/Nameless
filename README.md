@@ -15,8 +15,12 @@ GitHub: https://github.com/NikoFinlertet/Cursovaya.git
  - [] Схема микросервисной архитектуры 
 
 >Code:
- - []
+ - [] Написать скелет backend'а
  - []
  - []
 
+>Server:
+ - [] Развернуть сервер
+ - [] развернуть бд
+ - [] 
 ---
