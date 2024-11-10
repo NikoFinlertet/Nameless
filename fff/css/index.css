@@ -1,0 +1,26 @@
+html{
+    background-color: 2A2A2A;
+}
+
+
+.header{
+    height: 80px;
+
+
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: 863A94;
+}
+
+
+.sideBar{
+    width: 340px;
+    height: 800px;
+    background-color: 343434;
+
+    font-size: 22px;
+}
+
+.canvas{
+
+}
