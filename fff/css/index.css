@@ -14,9 +14,11 @@ html{
 
 
 .sideBar{
-    width: 340px;
-    height: 800px;
+    width: 140px;
+    height: 600px;
     background-color: 343434;
+
+    border-radius: 10px;
 
     font-size: 22px;
 }
