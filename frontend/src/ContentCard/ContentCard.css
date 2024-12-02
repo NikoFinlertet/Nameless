@@ -14,9 +14,26 @@
   background: #c00b0b;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-  /*Наведение*/
-  cursor: 'auto';
+  /*Animate*/
+  transition: transform 0.5s ease, opacity 0.8s ease; /* Плавный переход для анимации */
+  z-index: 1; /* Убедитесь, что карточка находится выше других элементов */
+  transform-origin: center; /* Центрируем точку увеличения */
+}
 
+.card.expand {
+  position: fixed;
+  transform: scale(1); /* Увеличиваем карточку*/
+  top: 0;
+  left: 0;
+  width: 100%; /* Занимаем всю ширину экрана */
+  height: 100%; /* Занимаем всю высоту экрана */
+  z-index: 1000; /* Увеличиваем z-index для отображения поверх других элементов */
+
+  opacity: 1; /*Прозрачность*/
+}
+
+.card:not(.expand){
+  opacity: 0.8s;
 }
   
   .card-title {
@@ -34,3 +51,15 @@
     border-radius: 8px;
   }
   
+
+.fade-out{
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fade-out {
+  from{
+    opacity: 1;
+  } to {
+    opacity: 0;
+  }
+}

@@ -8,7 +8,7 @@ const ContentList = () => {
       type: "video",
       title: "Video post",
       description: "Aboba.",
-      postPattern: "https://example.com/react-basics.mp4"
+      postPattern: "url post on pattern"
     },
     {
       type: "image",
