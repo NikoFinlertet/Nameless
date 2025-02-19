@@ -12,19 +12,3 @@
 Дизайн: Figma
 
 GitHub: https://github.com/NikoFinlertet/Cursovaya.git
-
----
-Задачи:
->В Figma:
- - [] Дизайн сервиса (в разработке)
-
->Code:
- - [X] Написать скелет backend'а и frontend'а.
- - []
- - [] Создать рабочий mvp 
-
->Server:
- - [] Развернуть сервер
- - [] развернуть бд
- - [] 
----
